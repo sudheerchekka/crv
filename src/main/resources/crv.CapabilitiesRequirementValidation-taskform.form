@@ -1,0 +1,21 @@
+
+<form id="1375918463">
+<property name="name" value="crv.CapabilitiesRequirementValidation-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="fileId" type="InputText" id="703371401">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;fileId (fileId)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="fileId"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="" name="#FBB767" type="basicType" outId="fileId" value="java.lang.String" id="fileId"/>
+<dataHolder inputId="" name="#A7E690" type="basicType" outId="fileOkToReview" value="java.lang.Boolean" id="fileOkToReview"/>
+<dataHolder inputId="" name="#FF8881" type="basicType" outId="malcious" value="java.lang.String" id="malcious"/>
+<dataHolder inputId="" name="#E9E371" type="dataModelerEntry" outId="rabbitMQMessage" value="com.redhat.demo.crv.RabbitMQMessage" id="rabbitMQMessage"/>
+<dataHolder inputId="" name="#B29FE4" type="basicType" outId="sandboxingResult" value="java.lang.String" id="sandboxingResult"/>
+<dataHolder inputId="" name="#FF54A7" type="dataModelerEntry" outId="serviceNowMessage" value="com.redhat.demo.crv.ServiceNowMessage" id="serviceNowMessage"/>
+<dataHolder inputId="" name="#BBBBBB" type="dataModelerEntry" outId="virusTotalLookupMessage" value="com.redhat.demo.crv.VirusTotalLookupMessage" id="virusTotalLookupMessage"/>
+<dataHolder inputId="" name="#9BCAFA" type="dataModelerEntry" outId="virusTotalLookupResponse" value="com.redhat.demo.crv.VirusTotalLookupResponse" id="virusTotalLookupResponse"/>
+</form>

@@ -1,0 +1,22 @@
+
+<form id="1847828852">
+<property name="name" value="SpeciousDetectionReview-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="fileId" type="InputText" id="1202937967">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;fileId (fileId)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="fileId"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="fileOkToReview" type="CheckBox" id="1493803407">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;fileOkToReview (fileOkToReview)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="fileOkToReview"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<dataHolder inputId="fileId" name="#FBB767" type="basicType" outId="" value="java.lang.String" id="fileId"/>
+<dataHolder inputId="" name="#A7E690" type="basicType" outId="fileOkToReview" value="java.lang.Boolean" id="fileOkToReview"/>
+</form>
